@@ -10,4 +10,12 @@ cask "tokenscope" do
   depends_on macos: ">= :catalina"
 
   app "Tokenscope.app"
+
+  # Unsigned/unnotarized build: strip the quarantine flag Homebrew adds so the
+  # app opens without the "Apple cannot verify" prompt.
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Tokenscope.app"],
+                   sudo: false
+  end
 end
