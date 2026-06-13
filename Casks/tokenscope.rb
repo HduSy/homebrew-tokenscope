@@ -1,8 +1,8 @@
 cask "tokenscope" do
-  version "0.1.11"
-  sha256 "a8842348f93c0b400440865413fdd83fc37e967e3fc1498964ee6512853e70fe"
+  version "0.1.12"
+  sha256 "84e8506994ededbcd2a4ec775218ed37605a5f31f282bd455b778120eae258f6"
 
-  url "https://github.com/HduSy/tokenscope/releases/download/v0.1.11/Tokenscope_0.1.11_universal.dmg"
+  url "https://github.com/HduSy/tokenscope/releases/download/v0.1.12/Tokenscope_0.1.12_universal.dmg"
   name "Tokenscope"
   desc "macOS menu-bar dashboard for Claude CLI token usage"
   homepage "https://github.com/HduSy/tokenscope"
