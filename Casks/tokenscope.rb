@@ -1,6 +1,6 @@
 cask "tokenscope" do
   version "1.0.5"
-  sha256 "007886932d955af76258c0a2b50dd5f04354d57d8f2ec4dd1abf32e80fcd94b5"
+  sha256 "43d5c314f267278faa25983a7756e32ac6e838988a1ea7db3952e9ba5bd153b5"
 
   url "https://github.com/HduSy/tokenscope/releases/download/v1.0.5/Tokenscope_1.0.5_universal.dmg"
   name "Tokenscope"
